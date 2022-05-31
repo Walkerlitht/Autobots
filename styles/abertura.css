@@ -27,8 +27,15 @@
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 707px) {
+  
+    .title-abertura {
+        transition: padding-top .7s;
+        padding-top: 40px;
+    }
+
     .subtitle-abertura {
+        transition: display .5s;
         display: none;
     }
 }
