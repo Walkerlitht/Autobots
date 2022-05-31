@@ -1,22 +1,4 @@
 /*///////////////////IMAGEM ABERTURA////////////////////////////*/
-@media only screen and (max-width: 340px) {
-    .title-abertura {
-        transition: transform .5s;
-        transform: scale(0.5);
-    }
-
-    .subtitle-abertura {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 232px) {
-    .title-abertura {
-        transition: transform .5s;
-        transform: scale(0.2);
-    }
-}
-
 .img-abertura {
     background-image: url(../assets/img-abertura.jpg);
     background-position: center center;
@@ -43,4 +25,10 @@
     font-size: 24pt;
     text-shadow: 0 5px 5px black;
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .subtitle-abertura {
+        display: none;
+    }
 }
