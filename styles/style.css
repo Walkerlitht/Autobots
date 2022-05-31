@@ -18,6 +18,17 @@ h1 {
 	font-size: 1.6rem;
 }
 /* = 16px*/
+@media only screen and (max-width: 440px) {
+	main {
+		min-width: 440px;
+		max-width: 100%;
+	}
+
+	.caixa nav ul {
+		transition: margin-left .5s;
+		margin-left: 40px;
+	}
+}
 /*////////////////////////////// ----- HEADER *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .logo {
 	width: 334px;
@@ -67,7 +78,9 @@ footer {
 	background-color: var(--bgcolor);
 	align-items: center;
 	height: 100px;
-	width: 100%;
+	min-width: 440px;
+	max-width: 100%;
+	width: calc(1280px + 100%);
 	z-index: 1;
 }
 
