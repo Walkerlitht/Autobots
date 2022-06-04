@@ -17,6 +17,7 @@ body {
 h1 {
 	font-size: 1.6rem;
 }
+
 /* = 16px*/
 @media only screen and (max-width: 440px) {
 	.caixa nav ul {
@@ -56,14 +57,17 @@ header h1 {
 	z-index: 1;
 
 }
-nav ul{
+
+nav ul {
 	margin-right: 20px;
+	position: relative;
+
 }
 
 nav li {
 	display: inline-flex;
 	flex-direction: row;
-	margin: 0 0 0 40px;	
+	margin: 0 0 0 40px;
 }
 
 nav a {
@@ -93,6 +97,7 @@ footer {
 	letter-spacing: 5px;
 	margin-left: 60px;
 }
+
 /*////////////////////////////// ----- FOOTER *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 /* EFEITOS */
