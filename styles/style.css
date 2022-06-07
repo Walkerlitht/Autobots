@@ -24,6 +24,10 @@ h1 {
 		transition: margin-left .5s;
 		margin-left: 40px;
 	}
+	.nav-bar ul {
+        flex-direction: row;
+		font-size: 8pt;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -32,7 +36,14 @@ h1 {
 		flex-direction: column;
 		margin: 0;
 	}
+
+    .nav-bar .nav-ul {
+		transform: scale(0.8);
+		text-align: center;
+		word-break: break-all;
+    }
 }
+
 /*////////////////////////////// ----- HEADER *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .logo {
 	width: 334px;

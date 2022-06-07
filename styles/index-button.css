@@ -16,3 +16,34 @@
 .btn:hover {
     filter: brightness(1.5);
 }
+
+.nav-bar {
+    max-width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16pt;
+    background-color: var(--bgcolor);
+    color: #219cb5;
+}
+
+.nav-bar .nav-ul {
+    margin: auto;
+}
+
+.style-border p {
+    padding: 0 5px 0 0;
+    margin: 1.5px;
+}
+
+.style-border p:hover::after {
+    content: '';
+    height: 100%;
+    width: 2px;
+    box-shadow: 0 0 2px 0.5px #219cb5;
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+}
