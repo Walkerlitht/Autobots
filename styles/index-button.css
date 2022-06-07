@@ -36,6 +36,12 @@
 .style-border p {
     padding: 0 5px 0 0;
     margin: 1.5px;
+    color: #E0E0E0;
+    transition: font-size .2s;
+}
+
+.style-border p:hover {
+    font-size: 16pt;
 }
 
 .style-border p:hover::after {
