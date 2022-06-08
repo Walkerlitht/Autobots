@@ -19,12 +19,6 @@ h1 {
 }
 
 /* = 16px*/
-@media only screen and (max-width: 500px) {
-	.caixa nav ul {
-		transition: margin-left .5s;
-		margin-left: 40px;
-	}
-}
 
 @media only screen and (max-width: 600px) {
 	nav ul {
@@ -33,15 +27,21 @@ h1 {
 		margin: 0;
 	}
 
-    .nav-bar .nav-ul {
+	.nav-bar .nav-ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		text-align: center;
 		word-break: break-all;
 		margin: auto;
-    }
+	}
+
+	.caixa nav ul {
+		transition: margin-left .5s;
+		margin-left: 40px;
+	}
 }
+
 
 /*////////////////////////////// ----- HEADER *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .logo {
@@ -95,9 +95,7 @@ footer {
 	background-color: var(--bgcolor);
 	align-items: center;
 	height: 100px;
-	min-width: 440px;
 	max-width: 100%;
-	width: calc(1280px + 100%);
 	z-index: 1;
 }
 
@@ -122,12 +120,13 @@ footer {
 }
 
 .efect-transition {
-	transition: font-size 0.150s, text-decoration .150s;
+	transition: font-size 0.150s, text-decoration .150s, color .150s;
 }
 
 .efect-transition:hover {
 	font-size: 24px;
 	text-decoration: underline;
+	color: #219cb5;
 }
 
 .logo {
@@ -137,11 +136,4 @@ footer {
 .logo:hover {
 	transform: scale(0.9);
 	cursor: pointer;
-}
-
-@media only screen and (max-width: 440px) {
-	main {
-		min-width: 440px;
-		max-width: 100%;
-	}
 }
