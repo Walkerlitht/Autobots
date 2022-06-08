@@ -23,8 +23,9 @@ h1 {
 @media only screen and (max-width: 600px) {
 	nav ul {
 		display: flex;
-		flex-direction: column;
-		margin: 0;
+	}
+	nav ul img {
+		width: 25px;
 	}
 
 	.nav-bar .nav-ul {
@@ -38,10 +39,26 @@ h1 {
 
 	.caixa nav ul {
 		transition: margin-left .5s;
-		margin-left: 40px;
 	}
 }
 
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 100%;
+	background-color: var(--bgcolor);
+}
+::-webkit-scrollbar-track {
+	background-color: #f15d0b;
+	border-radius: 100px;
+	margin-block: 97px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #219cb5;
+	border: 2px solid var(--bgcolor);
+	border-radius: 100px;
+}
 
 /*////////////////////////////// ----- HEADER *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .logo {
@@ -120,13 +137,11 @@ footer {
 }
 
 .efect-transition {
-	transition: font-size 0.150s, text-decoration .150s, color .150s;
+	transition: transform .2s;
 }
 
 .efect-transition:hover {
-	font-size: 24px;
-	text-decoration: underline;
-	color: #219cb5;
+	transform: scale(1.2);
 }
 
 .logo {
