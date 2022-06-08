@@ -7,7 +7,7 @@ article {
     width: 76.83rem;
     max-width: 95%;
     /*76.83rem*/
-    margin: 5rem auto 10rem auto;
+    margin: 10rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
