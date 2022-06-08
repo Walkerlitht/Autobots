@@ -19,18 +19,14 @@ h1 {
 }
 
 /* = 16px*/
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 500px) {
 	.caixa nav ul {
 		transition: margin-left .5s;
 		margin-left: 40px;
 	}
-	.nav-bar ul {
-        flex-direction: row;
-		font-size: 8pt;
-    }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 	nav ul {
 		display: flex;
 		flex-direction: column;
@@ -38,9 +34,12 @@ h1 {
 	}
 
     .nav-bar .nav-ul {
+		display: flex;
+		flex-direction: row;
 		transform: scale(0.8);
 		text-align: center;
 		word-break: break-all;
+		margin: auto;
     }
 }
 

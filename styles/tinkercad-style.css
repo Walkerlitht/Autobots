@@ -14,6 +14,28 @@ article {
 .content-container {
     position: relative;
 }
+
+/*////////////////////////////// -----  IMG HEADER  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.box-img {
+    position: relative;
+}
+
+.img-header {
+    background-image: url(../assets/tinkercad.png);
+    background-color: #12408f;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 373px;
+    width: 100%;
+
+}
+
+
+/*////////////////////////////// ----- IMG HEADER  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
 /*////////////////////////////// ----- CONTEUDO PROJETOS  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .box-title {
     display: flex;
@@ -28,7 +50,7 @@ article {
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-    
+
 }
 
 .project {
@@ -55,9 +77,10 @@ article {
     font-weight: 500;
     color: black;
 }
+
 .project a {
     text-decoration: none;
-}   
+}
 
 .project img {
     width: 100%;
