@@ -17,6 +17,7 @@
 .btn:hover {
     filter: brightness(1.5);
 }
+
 /* //////////////////   Botão quiz  //////////////////// */
 
 
@@ -24,6 +25,7 @@
 
 .nav-bar {
     max-width: 100%;
+    height: 43px;
     position: relative;
     display: flex;
     align-items: center;
@@ -37,21 +39,47 @@
     margin: auto;
 }
 
+
+.nav-bar::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 10px;
+    width: 100%;
+    z-index: -1;
+    background-color: var(--bgcolor);
+    filter: blur(5px);
+}
+
 .style-border p {
     margin: 0 7px;
     color: #E0E0E0;
 }
 
-.style-border p:hover::after {
+.style-border p::after {
     content: '';
     height: 100%;
-    width: 2px;
+    width: 1px;
     box-shadow: 0 0 2px 0.5px #219cb5;
+    background-color: #219cb5;
     position: absolute;
     top: 0;
     margin-left: 10px;
 }
-.style-border p::marker {
-    content: '#';
+
+.style-border p:hover::after {
+    background-color: transparent;
 }
+
+.style-border p::before {
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    bottom: -5px;
+    border-radius: 50%;
+    filter: blur(5px);
+}
+
 /* //////////////////   Barra de navegação entre posts  //////////////////// */
