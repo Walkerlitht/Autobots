@@ -1,4 +1,12 @@
 /*////////////////////////////// ----- PAGE FOTOS *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.img-abertura {
+    background: url(../assets/Galeria.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
 
 section {
     display: flex;
@@ -9,18 +17,18 @@ article {
     /* width: 76.83rem; */
     /* width: 100%; */
     max-width: 95%;
-    margin: 15rem 0 10rem 0;
+    margin: 10rem auto;
     display: flex;
     flex-direction: column;
 
-    background-color: var(--bgcolor);
+    background-color: rgb(128, 128, 128, 50%);
+    box-shadow: 0 2px 7px 2px var(--bgcolor);
 }
 
 .container-galeria {
     width: 90%; 
     height: 70%; 
     margin: 5rem auto; 
-    box-shadow: 0 0 5px 2px grey;
     background-color: #E0E0E0;
 }
 

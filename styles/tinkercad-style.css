@@ -43,21 +43,18 @@ article {
     box-shadow: 0 0 7px 2px var(--bgcolor);
 }
 
-.description {
-    margin: 40px auto;
-    text-indent: 5px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.2;
-    text-align: center;
-
+.project-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .project {
     width: 450px;
+    height:20px;
     margin: 40px auto;
     padding-bottom: 20px;
     border-bottom: 2px solid var(--bgcolor);
+    overflow: hidden;
 }
 
 .project h1 {
@@ -87,7 +84,30 @@ article {
     height: 100%;
 }
 
+.description {
+    margin: 40px auto;
+    text-indent: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+
+}
 
 /*////////////////////////////// ----- CONTEUDO PROJETOS  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.project:hover {
+    height: 100%;
+    transform: scale(1.1);
+    box-shadow: 0 0 8px 3px var(--bgcolor);
 
+}
+
+@media only screen and(width: 400px) {
+    .project:active {
+        height: 100%;
+        transform: scale(1.1);
+        border-bottom: 2px solid red;
+    }
+    
+}
 /*////////////////////////////// ----- PAGE TINKERCARD *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/

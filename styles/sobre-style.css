@@ -1,3 +1,15 @@
+/*////////////////////////////// ----- IMG ABERTURA *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.img-abertura {
+    background-image: url(../assets/industria4.0.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 373px;
+}
+/*////////////////////////////// ----- IMG ABERTURA *FIM*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
 /*////////////////////////////// ----- PAGE SOBRE *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 section {
 	display: flex;
@@ -8,7 +20,7 @@ article {
 	width          : 144rem;
 	max-width	   : 95%;
 	/*76.83rem*/
-	margin         : 20rem auto 10rem auto;
+	margin         : 10rem auto;
 }
 
 /*------------------  -~^ Tamanho da página*/
