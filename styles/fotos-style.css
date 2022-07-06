@@ -1,7 +1,7 @@
 /*////////////////////////////// ----- PAGE FOTOS *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .img-abertura {
     background: url(../assets/Galeria.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

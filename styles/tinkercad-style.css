@@ -23,12 +23,10 @@ article {
 }
 
 .img-header {
-    background-image: url(../assets/tinkercad.png);
-    background-color: #12408f;
-    background-position: center center;
+    background: url(../assets/tinkercad1.png) #219cb5;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    overflow: hidden;
     height: 373px;
 }
 
