@@ -46,7 +46,7 @@ article {
 /*////////////////////////////// ----- ImgUX-UI *INICIO*  -----\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 .img_uxui {
-    background: url(/assets/uxui.png) #219cb5;
+    background: url(../assets/uxui.png) #219cb5;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
